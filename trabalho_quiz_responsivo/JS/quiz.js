@@ -182,20 +182,20 @@ function questao12() {
     }
 }
 
-function registrar() {
-    let username = document.getElementById("registro").value
+// function registrar() {
+//     let username = document.getElementById("registro").value
 
-    localStorage.setItem(username, username)
+//     localStorage.setItem(username, username)
 
 
 
-    document.getElementById("status").textContent = `O usuário ${username} está pronto para jogar!`
+//     document.getElementById("status").textContent = `O usuário ${username} está pronto para jogar!`
 
-    console.log(`O usuário: ${username} foi cadastrado.`)
+//     console.log(`O usuário: ${username} foi cadastrado.`)
 
    
 
-}
+// }
 
 //Tentar novamente
 function refresh() {
@@ -205,7 +205,7 @@ function refresh() {
 
 //Sistema de Ranking
 var pontoAtual = 1
-var nick = document.getElementById("registro")
+var nick = prompt("Digite um nome para começar: ")
 
 var rankingNickJSON = {                             
     1: "AAA",
